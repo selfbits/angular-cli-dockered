@@ -22,7 +22,7 @@ RUN npm rebuild node-sass
 RUN npm i -g cordova
 RUN npm i -g ionic@latest && ionic --no-interactive config set -g daemon.updates false
 RUN npm rebuild node-sass
-RUN npm i -g @angular/cli@1.3.2
+RUN npm i -g @angular/cli@1.6.1
 RUN npm rebuild node-sass && npm cache verify
 
 RUN apk add --no-cache curl
