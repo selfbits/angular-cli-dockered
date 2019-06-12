@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:10-alpine
 MAINTAINER Klaus Welle <dev@selfbits.io>
 
 RUN apk update && apk upgrade && \
